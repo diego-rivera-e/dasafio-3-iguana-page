@@ -1,0 +1,83 @@
+/* H1,H2,H3 */
+h1{
+    font-size: 50px;
+}
+h1,h2{
+    font-weight: 500;
+}
+h3{
+    font-weight: 300;
+    font-size: 24px;
+}
+/* H1,footer,H2 */
+h1,footer,h2{
+    text-align: center;
+}
+/* body */
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+/* contenedor */
+.container{
+    width: 1000px;
+    margin: 0px auto;
+}
+/* foto_header */
+.header img{
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: top;
+}
+/* sections caracteristicas */
+.caracteristicas{
+    padding: 50px 0px;
+}
+/*  section caracteristicas y footer */
+.caracteristicas,footer{
+   background-color: #1e1a13;
+
+}
+/* caracteristicas_xseccion_div */
+.iconos{
+    margin-top: 20px;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+/* footer propiedades */
+footer{ 
+    padding: 40px 0px;
+    font-size: 20px;
+}
+/* enlace_footer */
+a{
+    text-decoration: none;
+    color: white;
+}
+/* imagenes_centrales_iguanas */
+.imagenes img{
+    width: 30%;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+}
+/* descripcion_imagenes */
+.descripcion img{
+float: right;
+width: 50%;
+padding: 20px;
+}
+/* descripcion_display */
+.descripcion{
+    display: flow-root;
+}
+/* modificacion_parrafo_padding */
+.descripcion p{
+    padding-top: 50px;
+}
